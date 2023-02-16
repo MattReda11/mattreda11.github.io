@@ -21,7 +21,7 @@ const config = {
     medium: '',
     dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://mattreda11.github.io/portfolio',
+    website: 'https://mattreda11.github.io',
     phone: '',
     email: 'matthew.reda1199@gmail.com',
   },
