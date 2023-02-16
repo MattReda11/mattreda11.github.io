@@ -2,63 +2,74 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'mattreda11', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['mattreda11.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'matthew-reda-ab813215b',
+    twitter: '',
     mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
+    website: 'https://mattreda11.github.io/portfolio',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'matthew.reda1199@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'HTML5',
+    'CSS',
+    'Java',
+    'Spring Boot',
     'JavaScript',
     'React.js',
+    'React Native',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
+    'Bootstrap',
     'Tailwind',
+    'Material UI',
+    'Cirrus UI',
+    'MySQL',
+    'MSSQL',
+    'MongoDB',
+    'Entity Framework',
+    'PHP',
+    'Laravel',
+    'Python',
+    'C#',
+    '.NET',
+    'ASP.NET Core',
+    'WPF',
+    'AWS',
+    'Azure',
+    'Git',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'National Bank of Canada',
+      position: 'Senior Customer Service Representative',
+      from: 'February 2020',
+      to: 'April 2021',
+      companyLink: 'https://www.nbc.ca/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'National Bank of Canada',
+      position: 'Customer Service Representative',
+      from: 'September 2019',
+      to: 'February 2020',
+      companyLink: 'https://www.nbc.ca/',
     },
   ],
   /* certifications: [
@@ -71,42 +82,37 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'John Abbott College',
+      degree: 'Full Stack Developer A.E.C',
+      from: '2022',
+      to: '2023',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'JobLink',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'JobLink is a LinkedIn clone web application developed using ASP.NET Core, Cirrus UI, Entity Framework Core, Azure Blob Storage and is hosted on the Azure Cloud.',
+      imageUrl: '/src/assets/images/joblink.jpg',
+      link: 'https://linkedinclone20230212234209.azurewebsites.net',
     },
     {
-      title: 'Project Name',
+      title: 'TicketBlaster',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'TicketBlaster is a project designed to be an alternative clone of Ticketmaster. Designed as a project to show skills developed with React.js, Node.js, HTML, CSS and MongoDB.',
+      imageUrl: '/src/assets/images/ticketblaster.jpg',
+      link: 'https://clever-hotteok-f60642.netlify.app/',
+    },
+    {
+      title: 'Dice Game',
+      description:
+        'Dice game developed using Python programming language and deployed on an AWS Ubuntu server.',
+      imageUrl: '/src/assets/images/dicegame.jpg',
+      link: 'http://ec2-44-204-37-245.compute-1.amazonaws.com/',
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -116,7 +122,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'luxury',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
