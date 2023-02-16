@@ -95,21 +95,24 @@ const config = {
       title: 'JobLink',
       description:
         'JobLink is a LinkedIn clone web application developed using ASP.NET Core, Cirrus UI, Entity Framework Core, Azure Blob Storage and is hosted on the Azure Cloud.',
-      imageUrl: '/src/assets/images/joblink.jpg',
+      imageUrl:
+        'https://fsd05regex.blob.core.windows.net/blob-storage/joblink.jpg',
       link: 'https://linkedinclone20230212234209.azurewebsites.net',
     },
     {
       title: 'TicketBlaster',
       description:
         'TicketBlaster is a project designed to be an alternative clone of Ticketmaster. Designed as a project to show skills developed with React.js, Node.js, HTML, CSS and MongoDB.',
-      imageUrl: '/src/assets/images/ticketblaster.jpg',
+      imageUrl:
+        'https://fsd05regex.blob.core.windows.net/blob-storage/ticketblaster.jpg',
       link: 'https://clever-hotteok-f60642.netlify.app/',
     },
     {
       title: 'Dice Game',
       description:
         'Dice game developed using Python programming language and deployed on an AWS Ubuntu server.',
-      imageUrl: '/src/assets/images/dicegame.jpg',
+      imageUrl:
+        'https://fsd05regex.blob.core.windows.net/blob-storage/dicegame.jpg',
       link: 'http://ec2-44-204-37-245.compute-1.amazonaws.com/',
     },
   ],
