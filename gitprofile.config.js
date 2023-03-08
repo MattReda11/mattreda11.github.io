@@ -115,6 +115,14 @@ const config = {
         'https://fsd05regex.blob.core.windows.net/blob-storage/dicegame.jpg',
       link: 'http://ec2-44-204-37-245.compute-1.amazonaws.com/',
     },
+    {
+      title: 'Regex Records',
+      description:
+        'Discogs website clone using Laravel PHP back-end and React.js front-end',
+      imageUrl:
+        'https://fsd05regex.blob.core.windows.net/blob-storage/Regex-Records.jpg',
+      link: 'https://laravelprojectfsd05.com',
+    },
   ],
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
