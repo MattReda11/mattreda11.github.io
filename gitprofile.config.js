@@ -92,14 +92,6 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'JobLink',
-      description:
-        'JobLink is a LinkedIn clone web application developed using ASP.NET Core, Cirrus UI, Entity Framework Core, Azure Blob Storage and is hosted on the Azure Cloud.',
-      imageUrl:
-        'https://fsd05regex.blob.core.windows.net/blob-storage/joblink.jpg',
-      link: 'https://linkedinclone20230212234209.azurewebsites.net',
-    },
-    {
       title: 'TicketBlaster',
       description:
         'TicketBlaster is a project designed to be an alternative clone of Ticketmaster. Designed as a project to show skills developed with React.js, Node.js, HTML, CSS and MongoDB.',
