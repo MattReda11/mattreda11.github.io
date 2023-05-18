@@ -52,11 +52,20 @@ const config = {
     '.NET',
     'ASP.NET Core',
     'WPF',
+    'Unity',
+    'Blender',
     'AWS',
     'Azure',
     'Git',
   ],
   experiences: [
+    {
+      company: 'VR/AI',
+      position: 'Unity 3D Developer Intern',
+      from: 'March 2023',
+      to: 'May 2023',
+      companyLink: 'https://vrai-dev.johnabbott.qc.ca/',
+    },
     {
       company: 'National Bank of Canada',
       position: 'Senior Customer Service Representative',
@@ -125,7 +134,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'luxury',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
