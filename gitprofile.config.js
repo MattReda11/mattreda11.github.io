@@ -204,7 +204,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by Matthew Reda`,
+  footer: `Made by Matthew Reda ✌`,
 };
 
 export default config;
