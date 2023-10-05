@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'matthew-reda-ab813215b',
+    linkedin: 'matthew-joseph-reda',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -39,8 +39,6 @@ const config = {
     'Node.js',
     'Bootstrap',
     'Tailwind',
-    'Material UI',
-    'Cirrus UI',
     'MySQL',
     'MSSQL',
     'MongoDB',
@@ -60,8 +58,15 @@ const config = {
   ],
   experiences: [
     {
-      company: 'VR/AI',
-      position: 'Unity 3D Developer Intern',
+      company: "Centre d'expertise et de recherche appliquée en sciences pharmaceutiques - CERASP",
+      position: 'Virtual Reality Developer',
+      from: 'August 2023',
+      to: 'Present',
+      companyLink: 'https://vrai-dev.johnabbott.qc.ca/',
+    },
+    {
+      company: "Centre d'expertise et de recherche appliquée en sciences pharmaceutiques - CERASP",
+      position: 'Virtual Reality Development Intern',
       from: 'March 2023',
       to: 'May 2023',
       companyLink: 'https://vrai-dev.johnabbott.qc.ca/',
@@ -81,14 +86,18 @@ const config = {
       companyLink: 'https://www.nbc.ca/',
     },
   ],
-  /* certifications: [
+ certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Front End Web Developer',
+      body: 'John Abbott College',
+      year: 'October 2022',
     },
-  ], */
+    {
+      name: 'Software Developer',
+      body: 'John Abbott College',
+      year: 'June 2023',
+    },
+  ],
   education: [
     {
       institution: 'John Abbott College',
@@ -116,14 +125,14 @@ const config = {
         'https://fsd05regex.blob.core.windows.net/blob-storage/dicegame.jpg',
       link: 'http://ec2-44-204-37-245.compute-1.amazonaws.com/',
     },
-    {
-      title: 'Regex Records',
-      description:
-        'Discogs website clone using Laravel PHP back-end and React.js front-end',
-      imageUrl:
-        'https://fsd05regex.blob.core.windows.net/blob-storage/Regex-Records.jpg',
-      link: 'https://laravelprojectfsd05.com',
-    },
+    // {
+    //   title: 'Regex Records',
+    //   description:
+    //     'Discogs website clone using Laravel PHP back-end and React.js front-end',
+    //   imageUrl:
+    //     'https://fsd05regex.blob.core.windows.net/blob-storage/Regex-Records.jpg',
+    //   link: 'https://laravelprojectfsd05.com',
+    // },
   ],
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -134,7 +143,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'corporate',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -153,8 +162,8 @@ const config = {
       'dark',
       'cupcake',
       'bumblebee',
+      'business',
       'emerald',
-      'corporate',
       'synthwave',
       'retro',
       'cyberpunk',
@@ -194,11 +203,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made by Matthew Reda`,
 };
 
 export default config;
