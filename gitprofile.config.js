@@ -145,7 +145,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'Lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -174,7 +174,6 @@ const config = {
       'garden',
       'forest',
       'aqua',
-      'lofi',
       'pastel',
       'fantasy',
       'wireframe',
