@@ -110,19 +110,21 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'Alpha Athletika',
+      description:
+        'Alpha Athletika is a new performance center located in Montreal who gifted me the opportunity to develop their first official website using React.js, HTML and CSS',
+      link: 'https://alphaathletika.com',
+    },
+    {
       title: 'TicketBlaster',
       description:
         'TicketBlaster is a project designed to be an alternative clone of Ticketmaster. Designed as a project to show skills developed with React.js, Node.js, HTML, CSS and MongoDB.',
-      imageUrl:
-        'https://fsd05regex.blob.core.windows.net/blob-storage/ticketblaster.jpg',
       link: 'https://clever-hotteok-f60642.netlify.app/',
     },
     {
       title: 'Dice Game',
       description:
         'Dice game developed using Python programming language and deployed on an AWS Ubuntu server.',
-      imageUrl:
-        'https://fsd05regex.blob.core.windows.net/blob-storage/dicegame.jpg',
       link: 'http://ec2-44-204-37-245.compute-1.amazonaws.com/',
     },
     // {
