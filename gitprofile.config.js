@@ -112,7 +112,7 @@ const config = {
     {
       title: 'Alpha Athletika',
       description:
-        'Alpha Athletika is a new performance center located in Montreal who gifted me the opportunity to develop their first official website using React.js, HTML and CSS',
+        'Alpha Athletika is a new performance center located in Montreal who gifted me the opportunity to develop their first official website using a template with JavaScript, HTML and CSS',
       link: 'https://alphaathletika.com',
     },
     {
@@ -120,6 +120,12 @@ const config = {
       description:
         'TicketBlaster is a project designed to be an alternative clone of Ticketmaster. Designed as a project to show skills developed with React.js, Node.js, HTML, CSS and MongoDB.',
       link: 'https://clever-hotteok-f60642.netlify.app/',
+    },
+    {
+      title: 'RegexRecords',
+      description:
+        'RegexRecords is a project designed to be an alternative clone of Discogs, a community where users can create collections of records, as well as, buy and sell vinyl records. Designed as a project to show skills developed with React.js, Vite.js, Laravel, HTML, CSS and Microsoft Azure.',
+      link: 'http://calm-springs-25332.herokuapp.com/login/',
     },
     {
       title: 'Dice Game',
